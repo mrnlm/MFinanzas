@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Finanzas</string>
+    <string name="menu_details">Detalles</string>
+    <string name="menu_income">Ingreso</string>
+    <string name="menu_outcome">Egreso</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="hint_income">Monto del ingreso</string>
+    <string name="hint_outcome">Monto del egreso</string>
+    <string name="button_save_income">Guardar Ingreso</string>
+    <string name="button_save_outcome">Guardar Egreso</string>
+    <string name="title_settings_fragment">Tipos de Ingreso</string>
+    <string name="text_income_category">Tipo: </string>
+    <string name="income_succesfully_saved">¡Ingreso guardado!</string>
+    <string name="title_details_incomes">Lista de ingresos</string>
+    <string name="title_details_outcomes">Lista de egresos</string>
+</resources>
