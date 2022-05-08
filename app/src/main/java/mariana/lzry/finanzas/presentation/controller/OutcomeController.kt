@@ -8,6 +8,10 @@ import mariana.lzry.finanzas.domain.usecases.GetCategoriesUseCase
 import mariana.lzry.finanzas.domain.usecases.WriteOutcomeEntryUseCase
 import mariana.lzry.finanzas.presentation.model.Category
 import mariana.lzry.finanzas.presentation.model.OutcomeEntry
+import java.time.Instant
+import java.time.LocalDateTime
+import java.time.ZoneOffset
+import java.time.format.DateTimeFormatter
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -43,10 +47,14 @@ class OutcomeController @Inject constructor() {
         override fun afterTextChanged(p0: Editable?) {}
     }
 
-    fun verifyAmountSet(): Boolean {
-        val validationResult = amount != 0.0
+    fun verifyAmountAndCategoryAreSet(): Boolean {
+        val dateNow: LocalDateTime = LocalDateTime.now()
+        val date = DateTimeFormatter
+            .ofPattern("dd-MM-yy HH:mm:ss")
+            .format(dateNow)
+        val validationResult = selectedCategory!=null && amount != 0.0
         if (validationResult) {
-            val outcomeEntry = OutcomeEntry(amount)
+            val outcomeEntry = OutcomeEntry(amount, selectedCategory!!.title, date)
             callWriteOutcomeEntryUseCase(outcomeEntry)
         }
         return validationResult

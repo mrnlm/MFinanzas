@@ -31,7 +31,12 @@ class IncomeEntriesAdapter(
         position: Int
     ) {
         holder.textViewTitle.text =
-            ""+data[position].amount+" - "+data[position].category
+            holder.textViewTitle.context.getString(
+                R.string.item_category_string,
+                data[position].amount,
+                data[position].category,
+                data[position].date,
+            )
     }
 
     class IncomeEntryViewHolder(

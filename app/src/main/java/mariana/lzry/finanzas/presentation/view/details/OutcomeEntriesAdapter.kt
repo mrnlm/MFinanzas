@@ -23,7 +23,12 @@ class OutcomeEntriesAdapter(
 
     override fun onBindViewHolder(holder: OutcomeEntryViewHolder, position: Int)  {
         holder.textViewTitle.text =
-            ""+allOutcomeEntries[position].amount
+            holder.textViewTitle.context.getString(
+                R.string.item_category_string,
+                allOutcomeEntries[position].amount,
+                allOutcomeEntries[position].category,
+                allOutcomeEntries[position].date,
+            )
     }
 
     override fun getItemCount(): Int = allOutcomeEntries.size
@@ -31,7 +36,6 @@ class OutcomeEntriesAdapter(
     class OutcomeEntryViewHolder(
         itemBinding: ItemOutcomeEntryBinding
     ) : RecyclerView.ViewHolder(itemBinding.root){
-
         val textViewTitle: TextView = itemView.findViewById(R.id.title)
     }
 }

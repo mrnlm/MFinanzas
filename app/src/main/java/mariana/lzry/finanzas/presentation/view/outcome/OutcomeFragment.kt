@@ -65,7 +65,7 @@ class OutcomeFragment : Fragment(),
         android.util.Log.d("Mariana debug", "onClickSaveOutcome")
         binding.saveOutcome.setOnClickListener {
             hideKeyboard()
-            val isAmountFieldVerified = outcomeController.verifyAmountSet()
+            val isAmountFieldVerified = outcomeController.verifyAmountAndCategoryAreSet()
             if(isAmountFieldVerified) {
                 binding.textInputLayout.error = null
                 Toast.makeText(requireContext(), R.string.outcome_succesfully_saved, Toast.LENGTH_SHORT).show()
