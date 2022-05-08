@@ -4,7 +4,6 @@ import android.text.Editable
 import android.text.TextWatcher
 import kotlinx.coroutines.*
 import mariana.lzry.finanzas.domain.usecases.GetIncomeCategoriesUseCase
-import mariana.lzry.finanzas.domain.usecases.GetIncomeEntriesUseCase
 import mariana.lzry.finanzas.domain.usecases.WriteIncomeEntriesUseCase
 import mariana.lzry.finanzas.presentation.model.IncomeCategory
 import mariana.lzry.finanzas.presentation.model.IncomeEntry
@@ -53,12 +52,12 @@ class IncomeController @Inject constructor(){
                 amount!!,
                 selectedIncomeCategory!!.title
             )
-            writeIncomeEntry(incomeEntry)
+            callWriteIncomeEntryUseCase(incomeEntry)
         }
         return validationResult
     }
 
-    fun writeIncomeEntry(incomeEntry: IncomeEntry) = runBlocking(Dispatchers.IO) {
+    private fun callWriteIncomeEntryUseCase(incomeEntry: IncomeEntry) = runBlocking(Dispatchers.IO) {
         writeIncomeEntriesUseCase.invoke(incomeEntry)
     }
 
