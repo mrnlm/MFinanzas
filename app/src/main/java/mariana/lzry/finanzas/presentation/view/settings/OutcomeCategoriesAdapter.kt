@@ -8,32 +8,32 @@ import mariana.lzry.finanzas.R
 import mariana.lzry.finanzas.databinding.ItemIncomeCategoryBinding
 import mariana.lzry.finanzas.presentation.model.Category
 
-class IncomeCategoriesAdapter(
+class OutcomeCategoriesAdapter(
     private val data: List<Category>
-): RecyclerView.Adapter<IncomeCategoriesAdapter.IncomeCategoryViewHolder>() {
+): RecyclerView.Adapter<OutcomeCategoriesAdapter.OutcomeCategoryViewHolder>() {
 
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ): IncomeCategoryViewHolder {
+    ): OutcomeCategoryViewHolder {
         val binding = ItemIncomeCategoryBinding.inflate(
             LayoutInflater.from(parent.context),
             parent,
             false
         )
-        return IncomeCategoryViewHolder(binding)
+        return OutcomeCategoryViewHolder(binding)
     }
 
     override fun getItemCount(): Int = data.size
 
     override fun onBindViewHolder(
-        holder: IncomeCategoryViewHolder,
+        holder: OutcomeCategoryViewHolder,
         position: Int
     ) {
         holder.textViewTitle.text = data[position].title
     }
 
-    class IncomeCategoryViewHolder(
+    class OutcomeCategoryViewHolder(
         itemBinding: ItemIncomeCategoryBinding
     ): RecyclerView.ViewHolder(itemBinding.root){
         val textViewTitle: TextView = itemView.findViewById(R.id.title)

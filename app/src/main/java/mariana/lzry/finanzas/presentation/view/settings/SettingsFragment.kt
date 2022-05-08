@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.AdapterView
 import androidx.fragment.app.Fragment
 import dagger.hilt.android.AndroidEntryPoint
 import mariana.lzry.finanzas.databinding.SettingsFragmentBinding
@@ -31,7 +30,11 @@ class SettingsFragment @Inject constructor(): Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding.incomeCategoriesRecyclerview.adapter =
-            IncomeCategoriesAdapter(settingsController.getAllCategories())
+            IncomeCategoriesAdapter(settingsController.getAllIncomeCategories())
+        val outcomeCategories = settingsController.getAllOutcomeCategories()
+        android.util.Log.d("MarianaDebug", "size="+outcomeCategories.size)
+        binding.outcomeCategoriesRecyclerview.adapter =
+            OutcomeCategoriesAdapter(outcomeCategories)
     }
 
     override fun onDestroyView() {

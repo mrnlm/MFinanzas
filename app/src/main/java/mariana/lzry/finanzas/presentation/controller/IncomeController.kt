@@ -3,9 +3,9 @@ package mariana.lzry.finanzas.presentation.controller
 import android.text.Editable
 import android.text.TextWatcher
 import kotlinx.coroutines.*
-import mariana.lzry.finanzas.domain.usecases.GetIncomeCategoriesUseCase
+import mariana.lzry.finanzas.domain.usecases.GetCategoriesUseCase
 import mariana.lzry.finanzas.domain.usecases.WriteIncomeEntriesUseCase
-import mariana.lzry.finanzas.presentation.model.IncomeCategory
+import mariana.lzry.finanzas.presentation.model.Category
 import mariana.lzry.finanzas.presentation.model.IncomeEntry
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -14,23 +14,23 @@ import javax.inject.Singleton
 class IncomeController @Inject constructor(){
 
     @Inject
-    lateinit var getIncomeCategoriesUseCase: GetIncomeCategoriesUseCase
+    lateinit var getCategoriesUseCase: GetCategoriesUseCase
     @Inject
     lateinit var writeIncomeEntriesUseCase: WriteIncomeEntriesUseCase
 
-    private var selectedIncomeCategory: IncomeCategory? = null
+    private var selectedCategory: Category? = null
     private var amount: String? = null
-    private var incomeCategories: List<IncomeCategory>? = null
+    private var categories: List<Category>? = null
 
-    fun getAllCategories(): List<IncomeCategory> = runBlocking(Dispatchers.IO) {
-        incomeCategories = getIncomeCategoriesUseCase.invoke()
-        return@runBlocking getIncomeCategoriesUseCase.invoke()
+    fun getAllCategories(): List<Category> = runBlocking(Dispatchers.IO) {
+        categories = getCategoriesUseCase.invokeForIncome()
+        return@runBlocking getCategoriesUseCase.invokeForIncome()
     }
 
     fun selectIncomeCategory(spinnerSelection: Int){
-        selectedIncomeCategory = incomeCategories?.get(spinnerSelection)
+        selectedCategory = categories?.get(spinnerSelection)
         android.util.Log.d("MarianaDebug",
-            "title = "+ selectedIncomeCategory?.title)
+            "title = "+ selectedCategory?.title)
     }
 
     var textWatcher: TextWatcher = object: TextWatcher {
@@ -46,11 +46,11 @@ class IncomeController @Inject constructor(){
     //var onSaveIncomeClickListener
 
     fun verifyAmountAndCategoryAreSet(): Boolean{
-        val validationResult = selectedIncomeCategory!=null && !amount.isNullOrEmpty()
+        val validationResult = selectedCategory!=null && !amount.isNullOrEmpty()
         if(validationResult){
             val incomeEntry = IncomeEntry(
                 amount!!,
-                selectedIncomeCategory!!.title
+                selectedCategory!!.title
             )
             callWriteIncomeEntryUseCase(incomeEntry)
         }

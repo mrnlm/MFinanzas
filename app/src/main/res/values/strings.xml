@@ -8,7 +8,8 @@
     <string name="hint_outcome">Monto del egreso</string>
     <string name="button_save_income">Guardar Ingreso</string>
     <string name="button_save_outcome">Guardar Egreso</string>
-    <string name="title_settings_fragment">Tipos de Ingreso</string>
+    <string name="title_settings_fragment">Categorías de Ingreso</string>
+    <string name="title_settings_outcome">Categorías de Egreso</string>
     <string name="text_income_category">Tipo: </string>
     <string name="income_succesfully_saved">¡Ingreso guardado!</string>
     <string name="income_unsuccesfully_saved">¡Escribe el ingreso!</string>
