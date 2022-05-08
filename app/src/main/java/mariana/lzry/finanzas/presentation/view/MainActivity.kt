@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity() {
         outcomeFragment = OutcomeFragment.newInstance()
         detailsFragment = DetailsFragment.newInstance()
         settingsFragment = SettingsFragment.newInstance()
-        setFragment(detailsFragment)
+        setFragment(homeFragment)
     }
 
     //
