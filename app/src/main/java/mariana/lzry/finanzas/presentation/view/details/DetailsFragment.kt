@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import dagger.hilt.android.AndroidEntryPoint
-import mariana.lzry.finanzas.R
 import mariana.lzry.finanzas.databinding.DetailsFragmentBinding
 import mariana.lzry.finanzas.presentation.controller.DetailsController
 import javax.inject.Inject

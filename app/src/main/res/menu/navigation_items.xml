@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/action_details"
-        android:title="@string/menu_details"
-        android:icon="@drawable/ic_details"
+        android:id="@+id/action_home"
+        android:title="@string/menu_home"
+        android:icon="@drawable/ic_home"
         />
     <item
         android:id="@+id/action_income"
@@ -14,5 +14,10 @@
         android:id="@+id/action_outcome"
         android:title="@string/menu_outcome"
         android:icon="@drawable/ic_outcome"
+        />
+    <item
+        android:id="@+id/action_details"
+        android:title="@string/menu_details"
+        android:icon="@drawable/ic_details"
         />
 </menu>
