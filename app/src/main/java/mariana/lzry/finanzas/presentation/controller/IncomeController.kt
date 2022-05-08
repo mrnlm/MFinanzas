@@ -58,7 +58,8 @@ class IncomeController @Inject constructor(){
         return validationResult
     }
 
-    private fun callWriteIncomeEntryUseCase(incomeEntry: IncomeEntry) = runBlocking(Dispatchers.IO) {
+    private fun callWriteIncomeEntryUseCase(incomeEntry: IncomeEntry) =
+        runBlocking(Dispatchers.IO) {
         writeIncomeEntriesUseCase.invoke(incomeEntry)
     }
 

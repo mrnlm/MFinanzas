@@ -6,6 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.InputMethodManager
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import dagger.hilt.android.AndroidEntryPoint
@@ -15,14 +17,14 @@ import mariana.lzry.finanzas.presentation.controller.OutcomeController
 import javax.inject.Inject
 
 @AndroidEntryPoint
-class OutcomeFragment : Fragment() {
+class OutcomeFragment : Fragment(),
+    AdapterView.OnItemSelectedListener
+{
 
     @Inject
     lateinit var outcomeController: OutcomeController
 
-    //inflar la vista del fragmento (con extras)
     private var _binding: OutcomeFragmentBinding? = null
-    //infla la vista final del fragmento (unicamente rootView)
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -35,8 +37,22 @@ class OutcomeFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        createOutcomeCategorySpinner()
         setSaveOutcomeClickListener()
         setOutcomeAmountTextWatcher()
+    }
+
+    private fun createOutcomeCategorySpinner(){
+        val arrayList: ArrayList<String> = ArrayList(
+            outcomeController.getAllCategories().map { it.title }
+        )
+        val arrayAdapter: ArrayAdapter<String> = ArrayAdapter(
+            requireContext(),
+            android.R.layout.simple_spinner_dropdown_item,
+            arrayList
+        )
+        binding.outcomeCategoriesSpinner.adapter = arrayAdapter
+        binding.outcomeCategoriesSpinner.onItemSelectedListener = this
     }
 
     private fun setOutcomeAmountTextWatcher() {
@@ -58,6 +74,12 @@ class OutcomeFragment : Fragment() {
             }
         }
     }
+
+    override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
+        outcomeController.selectOutcomeCategory(p2)
+    }
+
+    override fun onNothingSelected(p0: AdapterView<*>?) {}
 
     private fun hideKeyboard() {
         val inputManager = requireContext().getSystemService(Context.INPUT_METHOD_SERVICE)

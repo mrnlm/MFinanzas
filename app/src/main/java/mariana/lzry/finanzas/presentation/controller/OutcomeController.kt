@@ -4,7 +4,9 @@ import android.text.Editable
 import android.text.TextWatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking
+import mariana.lzry.finanzas.domain.usecases.GetCategoriesUseCase
 import mariana.lzry.finanzas.domain.usecases.WriteOutcomeEntryUseCase
+import mariana.lzry.finanzas.presentation.model.Category
 import mariana.lzry.finanzas.presentation.model.OutcomeEntry
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -13,9 +15,22 @@ import javax.inject.Singleton
 class OutcomeController @Inject constructor() {
 
     @Inject
+    lateinit var getCategoriesUseCase: GetCategoriesUseCase
+    @Inject
     lateinit var writeOutcomeEntryUseCase: WriteOutcomeEntryUseCase
 
+    private var categories: List<Category>? = null
+    private var selectedCategory: Category? = null
     private var amount: Double = 0.0
+
+    fun getAllCategories(): List<Category> = runBlocking(Dispatchers.IO) {
+        categories = getCategoriesUseCase.invokeForOutcome()
+        return@runBlocking getCategoriesUseCase.invokeForOutcome()
+    }
+
+    fun selectOutcomeCategory(spinnerSelection: Int){
+        selectedCategory = categories?.get(spinnerSelection)
+    }
 
     var textWatcher: TextWatcher = object : TextWatcher {
         override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
