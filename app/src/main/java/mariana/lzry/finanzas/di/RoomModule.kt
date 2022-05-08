@@ -42,4 +42,14 @@ object RoomModule {
     @Provides
     fun providegetIncomeEntityDao(db: FinanzasDatabase) =
         db.getAllIncomeEntriesDao()
+
+    @Singleton
+    @Provides
+    fun provideWriteOutcomeEntityDao(db: FinanzasDatabase) =
+        db.insertOutcomeEntryDao()
+
+    @Singleton
+    @Provides
+    fun provideReadOutcomeEntityDao(db: FinanzasDatabase) =
+        db.getAllOutcomeEntriesDao()
 }

@@ -11,6 +11,9 @@
     <string name="title_settings_fragment">Tipos de Ingreso</string>
     <string name="text_income_category">Tipo: </string>
     <string name="income_succesfully_saved">¡Ingreso guardado!</string>
+    <string name="income_unsuccesfully_saved">¡Escribe el ingreso!</string>
+    <string name="outcome_succesfully_saved">¡Egreso guardado!</string>
+    <string name="outcome_unsuccesfully_saved">¡Escribe el egreso!</string>
     <string name="title_details_incomes">Lista de ingresos</string>
     <string name="title_details_outcomes">Lista de egresos</string>
 </resources>

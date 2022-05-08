@@ -68,7 +68,7 @@ class IncomeFragment : Fragment(),
                 binding.textInputLayout.error = null
                 Toast.makeText(requireContext(), R.string.income_succesfully_saved, Toast.LENGTH_SHORT).show()
             } else {
-                binding.textInputLayout.error = getString(R.string.income_succesfully_saved)
+                binding.textInputLayout.error = getString(R.string.income_unsuccesfully_saved)
             }
         }
     }

@@ -32,6 +32,8 @@ class DetailsFragment: Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding.detailsIncomeEntriesRecyclerview.adapter =
             IncomeEntriesAdapter(detailsController.getAllIncomeEntries())
+        binding.detailsOutcomeEntriesRecyclerview.adapter =
+            OutcomeEntriesAdapter(detailsController.getAllOutcomeEntries())
     }
 
     override fun onDestroyView() {
