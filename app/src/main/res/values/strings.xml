@@ -13,4 +13,6 @@
     <string name="income_succesfully_saved">¡Ingreso guardado!</string>
     <string name="title_details_incomes">Lista de ingresos</string>
     <string name="title_details_outcomes">Lista de egresos</string>
+    <string name="button_login_login">Ingresar</string>
+    <string name="login_invalid_password">¡Contraseña inválida!</string>
 </resources>

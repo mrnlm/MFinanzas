@@ -2,8 +2,11 @@ package mariana.lzry.finanzas.presentation.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import dagger.hilt.android.AndroidEntryPoint
 import mariana.lzry.finanzas.R
@@ -40,6 +43,21 @@ class MainActivity : AppCompatActivity() {
             }
             else -> super.onOptionsItemSelected(item)
         }
+    }
+
+    private var doubleBackToExitPressedOnce = false
+    override fun onBackPressed() {
+        if (doubleBackToExitPressedOnce) {
+            finish()
+        }
+
+        this.doubleBackToExitPressedOnce = true
+        Toast.makeText(this, "Presiona BACK de nuevo para salir", Toast.LENGTH_SHORT).show()
+
+        Handler(Looper.getMainLooper()).postDelayed(
+            { doubleBackToExitPressedOnce = false },
+            2000
+        )
     }
 
     private fun initView(){
