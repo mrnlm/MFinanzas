@@ -8,6 +8,6 @@ import androidx.room.PrimaryKey
 data class IncomeEntryEntity(
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name="id") val id: Int = 0,
-    @ColumnInfo(name="amount") val amount: String,
+    @ColumnInfo(name="amount") val amount: Double,
     @ColumnInfo(name="category") val category: String,
 )

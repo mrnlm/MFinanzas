@@ -7,7 +7,7 @@
     android:layout_margin="16dp">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView_total_income"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/title_settings_fragment"
@@ -24,7 +24,7 @@
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView_total_income"
         tools:itemCount="4"
         tools:listitem="@layout/item_income_category" />
 

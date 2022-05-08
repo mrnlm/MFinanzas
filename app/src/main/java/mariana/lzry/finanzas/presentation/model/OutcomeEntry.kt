@@ -3,7 +3,7 @@ package mariana.lzry.finanzas.presentation.model
 import mariana.lzry.finanzas.data.database.entities.OutcomeEntryEntity
 
 data class OutcomeEntry(
-    var amount: String
+    var amount: Double
 )
 
 fun OutcomeEntryEntity.mapToDomainModel() = OutcomeEntry(amount)

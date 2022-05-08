@@ -17,8 +17,8 @@
     <string name="outcome_unsuccesfully_saved">¡Escribe el egreso!</string>
     <string name="title_details_incomes">Lista de ingresos</string>
     <string name="title_details_outcomes">Lista de egresos</string>
-    <string name="title_home_total_income"> Total ingresos</string>
-    <string name="title_home_total_outcome"> Total egresos</string>
+    <string name="title_home_total_income">Total ingresos $%1$.2f</string>
+    <string name="title_home_total_outcome">Total egresos $%1$.2f</string>
     <string name="menu_home">Principal</string>
     <string name="button_login_login">Ingresar</string>
     <string name="login_invalid_password">¡Contraseña inválida!</string>

@@ -3,7 +3,7 @@ package mariana.lzry.finanzas.presentation.model
 import mariana.lzry.finanzas.data.database.entities.IncomeEntryEntity
 
 data class IncomeEntry (
-    val amount: String,
+    val amount: Double,
     val category: String,
 )
 

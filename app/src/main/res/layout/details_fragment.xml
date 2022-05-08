@@ -6,7 +6,7 @@
     android:layout_margin="20dp">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView_total_income"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/title_details_incomes"
@@ -27,7 +27,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_total_income" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
@@ -37,7 +37,7 @@
         app:layout_constraintGuide_percent="0.5" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView_total_outcome"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/title_details_outcomes"
@@ -58,7 +58,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_total_outcome" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

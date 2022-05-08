@@ -10,5 +10,5 @@ data class OutcomeEntryEntity (
     @ColumnInfo(name="id")
     val id: Int = 0,
     @ColumnInfo(name="amount")
-    val amount: String,
+    val amount: Double,
 )

@@ -19,7 +19,7 @@ class IncomeController @Inject constructor(){
     lateinit var writeIncomeEntriesUseCase: WriteIncomeEntriesUseCase
 
     private var selectedCategory: Category? = null
-    private var amount: String? = null
+    private var amount: Double = 0.0
     private var categories: List<Category>? = null
 
     fun getAllCategories(): List<Category> = runBlocking(Dispatchers.IO) {
@@ -37,7 +37,8 @@ class IncomeController @Inject constructor(){
         override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
 
         override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-            amount = p0.toString()
+            val amountString = if(p0.isNullOrEmpty()){"0.0"} else p0
+            amount = amountString.toString().toDouble()
         }
 
         override fun afterTextChanged(p0: Editable?) {}
@@ -46,10 +47,10 @@ class IncomeController @Inject constructor(){
     //var onSaveIncomeClickListener
 
     fun verifyAmountAndCategoryAreSet(): Boolean{
-        val validationResult = selectedCategory!=null && !amount.isNullOrEmpty()
+        val validationResult = selectedCategory!=null && amount!=0.0
         if(validationResult){
             val incomeEntry = IncomeEntry(
-                amount!!,
+                amount,
                 selectedCategory!!.title
             )
             callWriteIncomeEntryUseCase(incomeEntry)

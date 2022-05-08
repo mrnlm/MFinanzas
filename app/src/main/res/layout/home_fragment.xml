@@ -6,7 +6,7 @@
     android:layout_margin="20dp">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView_total_income"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -27,7 +27,7 @@
         app:layout_constraintGuide_percent="0.5" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView_total_outcome"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="center"
