@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/outcome_fragment.xml",
+        "source": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/res/layout/outcome_fragment.xml"
+    },
+    {
+        "merged": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_income_category.xml",
+        "source": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/res/layout/item_income_category.xml"
+    },
+    {
+        "merged": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/home_fragment.xml",
+        "source": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/res/layout/home_fragment.xml"
+    },
+    {
+        "merged": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/details_fragment.xml",
+        "source": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/res/layout/details_fragment.xml"
+    },
+    {
+        "merged": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_income_entry.xml",
+        "source": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/res/layout/item_income_entry.xml"
+    },
+    {
+        "merged": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/settings_fragment.xml",
+        "source": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/res/layout/settings_fragment.xml"
+    },
+    {
+        "merged": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/login_activity.xml",
+        "source": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/res/layout/login_activity.xml"
+    },
+    {
+        "merged": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/income_fragment.xml",
+        "source": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/res/layout/income_fragment.xml"
+    },
+    {
+        "merged": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_outcome_entry.xml",
+        "source": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/res/layout/item_outcome_entry.xml"
+    },
+    {
+        "merged": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/main_activity.xml",
+        "source": "/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/res/layout/main_activity.xml"
+    }
+]

@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="mariana.lzry.finanzas"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:5:5-25:19
+12        android:name="mariana.lzry.finanzas.di.AppFinanzas"
+12-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:6:9-39
+13        android:allowBackup="true"
+13-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:7:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.7.0] /Users/mariana/.gradle/caches/transforms-3/339ac3bdcf6ef26ce1df1de5d38a9236/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:icon="@mipmap/ic_wallet_round"
+17-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:8:9-47
+18        android:label="@string/app_name"
+18-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:9:9-41
+19        android:roundIcon="@mipmap/ic_wallet_round"
+19-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:10:9-52
+20        android:supportsRtl="true"
+20-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:11:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.Finanzas" >
+22-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:12:9-46
+23        <activity
+23-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:13:9-20:20
+24            android:name="mariana.lzry.finanzas.presentation.view.login.LoginActivity"
+24-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:14:13-66
+25            android:exported="true" >
+25-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:15:13-36
+26            <intent-filter>
+26-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:16:13-19:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:17:17-69
+27-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:17:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:18:17-77
+29-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:18:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:21:9-24:20
+33            android:name="mariana.lzry.finanzas.presentation.view.MainActivity"
+33-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:22:13-59
+34            android:exported="true" >
+34-->/Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:23:13-36
+35        </activity>
+36
+37        <provider
+37-->[androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+38            android:name="androidx.startup.InitializationProvider"
+38-->[androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+39            android:authorities="mariana.lzry.finanzas.androidx-startup"
+39-->[androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+40            android:exported="false" >
+40-->[androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+41            <meta-data
+41-->[androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+42                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+42-->[androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+43                android:value="androidx.startup" />
+43-->[androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+44            <meta-data
+44-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mariana/.gradle/caches/transforms-3/dcdac8543f7e2756486e425e382553e3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mariana/.gradle/caches/transforms-3/dcdac8543f7e2756486e425e382553e3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+46                android:value="androidx.startup" />
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mariana/.gradle/caches/transforms-3/dcdac8543f7e2756486e425e382553e3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+47        </provider>
+48
+49        <service
+49-->[androidx.room:room-runtime:2.4.2] /Users/mariana/.gradle/caches/transforms-3/06363ef215da5b131586f95ae120fe3e/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+50            android:name="androidx.room.MultiInstanceInvalidationService"
+50-->[androidx.room:room-runtime:2.4.2] /Users/mariana/.gradle/caches/transforms-3/06363ef215da5b131586f95ae120fe3e/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+51            android:directBootAware="true"
+51-->[androidx.room:room-runtime:2.4.2] /Users/mariana/.gradle/caches/transforms-3/06363ef215da5b131586f95ae120fe3e/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+52            android:exported="false" />
+52-->[androidx.room:room-runtime:2.4.2] /Users/mariana/.gradle/caches/transforms-3/06363ef215da5b131586f95ae120fe3e/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+53    </application>
+54
+55</manifest>

@@ -1,0 +1,271 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.databinding:viewbinding:7.1.3] /Users/mariana/.gradle/caches/transforms-3/11ea3b52dca3b9e6c221cbca78db2c79/transformed/viewbinding-7.1.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.4.2] /Users/mariana/.gradle/caches/transforms-3/8786b10a17cd942ddd4aecbff6051969/transformed/room-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/mariana/.gradle/caches/transforms-3/df66413b3214d181b3c47f7b5f4b7d2c/transformed/core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.6.0] /Users/mariana/.gradle/caches/transforms-3/61f6f8975349f7119ece813ae40fbb19/transformed/material-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/mariana/.gradle/caches/transforms-3/e1543209452bd1bb9f5a9ab03e81c273/transformed/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/mariana/.gradle/caches/transforms-3/c8a303a3d4ad0cceb3e1cc5cbbfd5bd9/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03] /Users/mariana/.gradle/caches/transforms-3/901904c3d0f26746cb5019cbb7d9c0f4/transformed/hilt-lifecycle-viewmodel-1.0.0-alpha03/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:hilt-android:2.31-alpha] /Users/mariana/.gradle/caches/transforms-3/8ad12ffb1890341f49298b1ce1035aac/transformed/hilt-android-2.31-alpha/AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/02cf352a9c85f3c72229152bc6322eb4/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/mariana/.gradle/caches/transforms-3/20670c8cad0bf4f6a0499db2891e0193/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/mariana/.gradle/caches/transforms-3/f9fc8c352b257844d5a126307cdc2c9f/transformed/activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/mariana/.gradle/caches/transforms-3/58ee93d33a3439ddb441b09f2143284a/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/mariana/.gradle/caches/transforms-3/982fe60ffca69519cb0cea29c2b2639c/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mariana/.gradle/caches/transforms-3/60a45a9dd116e255f93bc8757912af28/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mariana/.gradle/caches/transforms-3/72831a5badde2908d166e7f75a2555ea/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mariana/.gradle/caches/transforms-3/9eccb3741afab7e69d6934d7baff74e9/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/mariana/.gradle/caches/transforms-3/1939f7b78eaedcfb98846617c82e98c4/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mariana/.gradle/caches/transforms-3/c30b26f953051dfb9d2bff0029a0de2a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mariana/.gradle/caches/transforms-3/75c6a45e15cdf948507a354d0e783358/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mariana/.gradle/caches/transforms-3/acb33b904bf0aaa9066d12527181fec3/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mariana/.gradle/caches/transforms-3/c47fbb7bff5efc17298aa3d8d3cb1888/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mariana/.gradle/caches/transforms-3/ad02b31dd31b8fec2810f89a9377fe42/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mariana/.gradle/caches/transforms-3/06433be0ae5eb8d57ae0023296297eb1/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/mariana/.gradle/caches/transforms-3/370d468826adb24b99541e483db46338/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /Users/mariana/.gradle/caches/transforms-3/339ac3bdcf6ef26ce1df1de5d38a9236/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mariana/.gradle/caches/transforms-3/c200498e4addf219e1031fe94668b667/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/mariana/.gradle/caches/transforms-3/87c24b5ae17f93e6933990046b286ba6/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/mariana/.gradle/caches/transforms-3/a5dcb0a1632c4d9d3a0392c96ffffba6/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/mariana/.gradle/caches/transforms-3/01d1f9f5c0764da649aef69fa55516bd/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mariana/.gradle/caches/transforms-3/b55c61cc468e9069299bee24a89d1307/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/mariana/.gradle/caches/transforms-3/06363ef215da5b131586f95ae120fe3e/transformed/room-runtime-2.4.2/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mariana/.gradle/caches/transforms-3/74bb8b72731a36662b299f86075abe9a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mariana/.gradle/caches/transforms-3/dcdac8543f7e2756486e425e382553e3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mariana/.gradle/caches/transforms-3/7134fc43bdc54c69c8ccdea2f913b817/transformed/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mariana/.gradle/caches/transforms-3/1868166041770b68354ca5004f322901/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mariana/.gradle/caches/transforms-3/4df0d9f85ee00616f2a1db976a6936f2/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/mariana/.gradle/caches/transforms-3/7426ca021c31950a95f9b6872c9a69e2/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/mariana/.gradle/caches/transforms-3/a8025f5aede824b2841ba2fcc4b54018/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mariana/.gradle/caches/transforms-3/bc263ad90611c568848ae9357b379d6f/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/mariana/.gradle/caches/transforms-3/4727ef93dc39b1808e3185fdfbc7eb73/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/mariana/.gradle/caches/transforms-3/04f2c9627f6a18b9f7806ba5b42acabd/transformed/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mariana/.gradle/caches/transforms-3/cf771096ac3ea1d06e6e8bd3bfe89845/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mariana/.gradle/caches/transforms-3/f2889fae9d286152503e14a9d4cc5735/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mariana/.gradle/caches/transforms-3/1d78970bec77d8d3bcf82a45f69ea271/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/mariana/.gradle/caches/transforms-3/e57b3a9d3d54a578b7f69c8154eb2abe/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mariana/.gradle/caches/transforms-3/7735b212eedc291be7c119a878fde6ad/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.31] /Users/mariana/.gradle/caches/transforms-3/ae17e79a6b31a36681882817d87d8797/transformed/dagger-lint-aar-2.31/AndroidManifest.xml:16:1-19:12
+INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:5:5-25:19
+MERGED from [com.google.android.material:material:1.6.0] /Users/mariana/.gradle/caches/transforms-3/61f6f8975349f7119ece813ae40fbb19/transformed/material-1.6.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.0] /Users/mariana/.gradle/caches/transforms-3/61f6f8975349f7119ece813ae40fbb19/transformed/material-1.6.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/mariana/.gradle/caches/transforms-3/e1543209452bd1bb9f5a9ab03e81c273/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/mariana/.gradle/caches/transforms-3/e1543209452bd1bb9f5a9ab03e81c273/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /Users/mariana/.gradle/caches/transforms-3/339ac3bdcf6ef26ce1df1de5d38a9236/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/mariana/.gradle/caches/transforms-3/339ac3bdcf6ef26ce1df1de5d38a9236/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/mariana/.gradle/caches/transforms-3/06363ef215da5b131586f95ae120fe3e/transformed/room-runtime-2.4.2/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/mariana/.gradle/caches/transforms-3/06363ef215da5b131586f95ae120fe3e/transformed/room-runtime-2.4.2/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mariana/.gradle/caches/transforms-3/74bb8b72731a36662b299f86075abe9a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mariana/.gradle/caches/transforms-3/74bb8b72731a36662b299f86075abe9a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mariana/.gradle/caches/transforms-3/dcdac8543f7e2756486e425e382553e3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mariana/.gradle/caches/transforms-3/dcdac8543f7e2756486e425e382553e3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mariana/.gradle/caches/transforms-3/7134fc43bdc54c69c8ccdea2f913b817/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mariana/.gradle/caches/transforms-3/7134fc43bdc54c69c8ccdea2f913b817/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/mariana/.gradle/caches/transforms-3/339ac3bdcf6ef26ce1df1de5d38a9236/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:10:9-52
+	android:icon
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:8:9-47
+	android:allowBackup
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:12:9-46
+	android:name
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:6:9-39
+activity#mariana.lzry.finanzas.presentation.view.login.LoginActivity
+ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:13:9-20:20
+	android:exported
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:14:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:16:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:18:27-74
+activity#mariana.lzry.finanzas.presentation.view.MainActivity
+ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:21:9-24:20
+	android:exported
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml:22:13-59
+uses-sdk
+INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.1.3] /Users/mariana/.gradle/caches/transforms-3/11ea3b52dca3b9e6c221cbca78db2c79/transformed/viewbinding-7.1.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.3] /Users/mariana/.gradle/caches/transforms-3/11ea3b52dca3b9e6c221cbca78db2c79/transformed/viewbinding-7.1.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.2] /Users/mariana/.gradle/caches/transforms-3/8786b10a17cd942ddd4aecbff6051969/transformed/room-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.2] /Users/mariana/.gradle/caches/transforms-3/8786b10a17cd942ddd4aecbff6051969/transformed/room-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/mariana/.gradle/caches/transforms-3/df66413b3214d181b3c47f7b5f4b7d2c/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/mariana/.gradle/caches/transforms-3/df66413b3214d181b3c47f7b5f4b7d2c/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.6.0] /Users/mariana/.gradle/caches/transforms-3/61f6f8975349f7119ece813ae40fbb19/transformed/material-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.0] /Users/mariana/.gradle/caches/transforms-3/61f6f8975349f7119ece813ae40fbb19/transformed/material-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/mariana/.gradle/caches/transforms-3/e1543209452bd1bb9f5a9ab03e81c273/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/mariana/.gradle/caches/transforms-3/e1543209452bd1bb9f5a9ab03e81c273/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/mariana/.gradle/caches/transforms-3/c8a303a3d4ad0cceb3e1cc5cbbfd5bd9/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/mariana/.gradle/caches/transforms-3/c8a303a3d4ad0cceb3e1cc5cbbfd5bd9/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03] /Users/mariana/.gradle/caches/transforms-3/901904c3d0f26746cb5019cbb7d9c0f4/transformed/hilt-lifecycle-viewmodel-1.0.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03] /Users/mariana/.gradle/caches/transforms-3/901904c3d0f26746cb5019cbb7d9c0f4/transformed/hilt-lifecycle-viewmodel-1.0.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:hilt-android:2.31-alpha] /Users/mariana/.gradle/caches/transforms-3/8ad12ffb1890341f49298b1ce1035aac/transformed/hilt-android-2.31-alpha/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.31-alpha] /Users/mariana/.gradle/caches/transforms-3/8ad12ffb1890341f49298b1ce1035aac/transformed/hilt-android-2.31-alpha/AndroidManifest.xml:18:3-42
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/02cf352a9c85f3c72229152bc6322eb4/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/02cf352a9c85f3c72229152bc6322eb4/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/mariana/.gradle/caches/transforms-3/20670c8cad0bf4f6a0499db2891e0193/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/mariana/.gradle/caches/transforms-3/20670c8cad0bf4f6a0499db2891e0193/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/mariana/.gradle/caches/transforms-3/f9fc8c352b257844d5a126307cdc2c9f/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/mariana/.gradle/caches/transforms-3/f9fc8c352b257844d5a126307cdc2c9f/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/mariana/.gradle/caches/transforms-3/58ee93d33a3439ddb441b09f2143284a/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/mariana/.gradle/caches/transforms-3/58ee93d33a3439ddb441b09f2143284a/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/mariana/.gradle/caches/transforms-3/982fe60ffca69519cb0cea29c2b2639c/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/mariana/.gradle/caches/transforms-3/982fe60ffca69519cb0cea29c2b2639c/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mariana/.gradle/caches/transforms-3/60a45a9dd116e255f93bc8757912af28/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mariana/.gradle/caches/transforms-3/60a45a9dd116e255f93bc8757912af28/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mariana/.gradle/caches/transforms-3/72831a5badde2908d166e7f75a2555ea/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mariana/.gradle/caches/transforms-3/72831a5badde2908d166e7f75a2555ea/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mariana/.gradle/caches/transforms-3/9eccb3741afab7e69d6934d7baff74e9/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mariana/.gradle/caches/transforms-3/9eccb3741afab7e69d6934d7baff74e9/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/mariana/.gradle/caches/transforms-3/1939f7b78eaedcfb98846617c82e98c4/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/mariana/.gradle/caches/transforms-3/1939f7b78eaedcfb98846617c82e98c4/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mariana/.gradle/caches/transforms-3/c30b26f953051dfb9d2bff0029a0de2a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mariana/.gradle/caches/transforms-3/c30b26f953051dfb9d2bff0029a0de2a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mariana/.gradle/caches/transforms-3/75c6a45e15cdf948507a354d0e783358/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mariana/.gradle/caches/transforms-3/75c6a45e15cdf948507a354d0e783358/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mariana/.gradle/caches/transforms-3/acb33b904bf0aaa9066d12527181fec3/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mariana/.gradle/caches/transforms-3/acb33b904bf0aaa9066d12527181fec3/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mariana/.gradle/caches/transforms-3/c47fbb7bff5efc17298aa3d8d3cb1888/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mariana/.gradle/caches/transforms-3/c47fbb7bff5efc17298aa3d8d3cb1888/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mariana/.gradle/caches/transforms-3/ad02b31dd31b8fec2810f89a9377fe42/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mariana/.gradle/caches/transforms-3/ad02b31dd31b8fec2810f89a9377fe42/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mariana/.gradle/caches/transforms-3/06433be0ae5eb8d57ae0023296297eb1/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mariana/.gradle/caches/transforms-3/06433be0ae5eb8d57ae0023296297eb1/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/mariana/.gradle/caches/transforms-3/370d468826adb24b99541e483db46338/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/mariana/.gradle/caches/transforms-3/370d468826adb24b99541e483db46338/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/mariana/.gradle/caches/transforms-3/339ac3bdcf6ef26ce1df1de5d38a9236/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/mariana/.gradle/caches/transforms-3/339ac3bdcf6ef26ce1df1de5d38a9236/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mariana/.gradle/caches/transforms-3/c200498e4addf219e1031fe94668b667/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mariana/.gradle/caches/transforms-3/c200498e4addf219e1031fe94668b667/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/mariana/.gradle/caches/transforms-3/87c24b5ae17f93e6933990046b286ba6/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/mariana/.gradle/caches/transforms-3/87c24b5ae17f93e6933990046b286ba6/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/mariana/.gradle/caches/transforms-3/a5dcb0a1632c4d9d3a0392c96ffffba6/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/mariana/.gradle/caches/transforms-3/a5dcb0a1632c4d9d3a0392c96ffffba6/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/mariana/.gradle/caches/transforms-3/01d1f9f5c0764da649aef69fa55516bd/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/mariana/.gradle/caches/transforms-3/01d1f9f5c0764da649aef69fa55516bd/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mariana/.gradle/caches/transforms-3/b55c61cc468e9069299bee24a89d1307/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mariana/.gradle/caches/transforms-3/b55c61cc468e9069299bee24a89d1307/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/mariana/.gradle/caches/transforms-3/06363ef215da5b131586f95ae120fe3e/transformed/room-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/mariana/.gradle/caches/transforms-3/06363ef215da5b131586f95ae120fe3e/transformed/room-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mariana/.gradle/caches/transforms-3/74bb8b72731a36662b299f86075abe9a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mariana/.gradle/caches/transforms-3/74bb8b72731a36662b299f86075abe9a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mariana/.gradle/caches/transforms-3/dcdac8543f7e2756486e425e382553e3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mariana/.gradle/caches/transforms-3/dcdac8543f7e2756486e425e382553e3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mariana/.gradle/caches/transforms-3/7134fc43bdc54c69c8ccdea2f913b817/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mariana/.gradle/caches/transforms-3/7134fc43bdc54c69c8ccdea2f913b817/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mariana/.gradle/caches/transforms-3/1868166041770b68354ca5004f322901/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mariana/.gradle/caches/transforms-3/1868166041770b68354ca5004f322901/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mariana/.gradle/caches/transforms-3/4df0d9f85ee00616f2a1db976a6936f2/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mariana/.gradle/caches/transforms-3/4df0d9f85ee00616f2a1db976a6936f2/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/mariana/.gradle/caches/transforms-3/7426ca021c31950a95f9b6872c9a69e2/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/mariana/.gradle/caches/transforms-3/7426ca021c31950a95f9b6872c9a69e2/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/mariana/.gradle/caches/transforms-3/a8025f5aede824b2841ba2fcc4b54018/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/mariana/.gradle/caches/transforms-3/a8025f5aede824b2841ba2fcc4b54018/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mariana/.gradle/caches/transforms-3/bc263ad90611c568848ae9357b379d6f/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mariana/.gradle/caches/transforms-3/bc263ad90611c568848ae9357b379d6f/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/mariana/.gradle/caches/transforms-3/4727ef93dc39b1808e3185fdfbc7eb73/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/mariana/.gradle/caches/transforms-3/4727ef93dc39b1808e3185fdfbc7eb73/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/mariana/.gradle/caches/transforms-3/04f2c9627f6a18b9f7806ba5b42acabd/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/mariana/.gradle/caches/transforms-3/04f2c9627f6a18b9f7806ba5b42acabd/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mariana/.gradle/caches/transforms-3/cf771096ac3ea1d06e6e8bd3bfe89845/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mariana/.gradle/caches/transforms-3/cf771096ac3ea1d06e6e8bd3bfe89845/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mariana/.gradle/caches/transforms-3/f2889fae9d286152503e14a9d4cc5735/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mariana/.gradle/caches/transforms-3/f2889fae9d286152503e14a9d4cc5735/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mariana/.gradle/caches/transforms-3/1d78970bec77d8d3bcf82a45f69ea271/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mariana/.gradle/caches/transforms-3/1d78970bec77d8d3bcf82a45f69ea271/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mariana/.gradle/caches/transforms-3/e57b3a9d3d54a578b7f69c8154eb2abe/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mariana/.gradle/caches/transforms-3/e57b3a9d3d54a578b7f69c8154eb2abe/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mariana/.gradle/caches/transforms-3/7735b212eedc291be7c119a878fde6ad/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mariana/.gradle/caches/transforms-3/7735b212eedc291be7c119a878fde6ad/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.31] /Users/mariana/.gradle/caches/transforms-3/ae17e79a6b31a36681882817d87d8797/transformed/dagger-lint-aar-2.31/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.31] /Users/mariana/.gradle/caches/transforms-3/ae17e79a6b31a36681882817d87d8797/transformed/dagger-lint-aar-2.31/AndroidManifest.xml:18:3-42
+INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mariana/Documents/IBERO/2022/Final/Finanzas/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mariana/.gradle/caches/transforms-3/dcdac8543f7e2756486e425e382553e3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mariana/.gradle/caches/transforms-3/dcdac8543f7e2756486e425e382553e3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mariana/.gradle/caches/transforms-3/7134fc43bdc54c69c8ccdea2f913b817/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mariana/.gradle/caches/transforms-3/7134fc43bdc54c69c8ccdea2f913b817/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/mariana/.gradle/caches/transforms-3/8533d833f920b8f4e4ba272e3948e106/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.2] /Users/mariana/.gradle/caches/transforms-3/06363ef215da5b131586f95ae120fe3e/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.2] /Users/mariana/.gradle/caches/transforms-3/06363ef215da5b131586f95ae120fe3e/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.2] /Users/mariana/.gradle/caches/transforms-3/06363ef215da5b131586f95ae120fe3e/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.2] /Users/mariana/.gradle/caches/transforms-3/06363ef215da5b131586f95ae120fe3e/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mariana/.gradle/caches/transforms-3/dcdac8543f7e2756486e425e382553e3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mariana/.gradle/caches/transforms-3/dcdac8543f7e2756486e425e382553e3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mariana/.gradle/caches/transforms-3/dcdac8543f7e2756486e425e382553e3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

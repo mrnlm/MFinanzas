@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Finanzas</string>
+    <string name="app_name">Mis Finanzas</string>
     <string name="menu_details">Detalles</string>
     <string name="menu_income">Ingreso</string>
     <string name="menu_outcome">Egreso</string>
@@ -23,4 +23,5 @@
     <string name="menu_home">Principal</string>
     <string name="button_login_login">Ingresar</string>
     <string name="login_invalid_password">¡Contraseña inválida!</string>
+    <string name="enterPassword">Contraseña</string>
 </resources>

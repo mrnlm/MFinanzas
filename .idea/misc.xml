@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_wallet_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_wallet_lg_background.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/details_fragment.xml" value="0.3175925925925926" />
+        <entry key="app/src/main/res/layout/home_fragment.xml" value="0.3175925925925926" />
+        <entry key="app/src/main/res/layout/income_fragment.xml" value="0.2916666666666667" />
+        <entry key="app/src/main/res/layout/item_income_category.xml" value="0.2916666666666667" />
+        <entry key="app/src/main/res/layout/item_income_entry.xml" value="0.2916666666666667" />
+        <entry key="app/src/main/res/layout/item_outcome_entry.xml" value="0.2916666666666667" />
+        <entry key="app/src/main/res/layout/login_activity.xml" value="0.2916666666666667" />
+        <entry key="app/src/main/res/layout/main_activity.xml" value="0.34269662921348315" />
+        <entry key="app/src/main/res/layout/outcome_fragment.xml" value="0.2916666666666667" />
+        <entry key="app/src/main/res/layout/settings_fragment.xml" value="0.3175925925925926" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_wallet_lg.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_wallet_lg_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
