@@ -1,3 +1,5 @@
+@file:Suppress("RemoveRedundantQualifierName")
+
 package mariana.lzry.finanzas.presentation.view.details
 
 import android.view.LayoutInflater

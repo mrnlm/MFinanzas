@@ -8,11 +8,10 @@ const val password = "1234"
 @Singleton
 class LoginController @Inject constructor(){
 
-    fun onLoginClicked(incomingPassword: String){
+    /*fun onLoginClicked(incomingPassword: String){
         if(isValidPassword(incomingPassword)){
-
         }
-    }
+    }*/
 
     fun isValidPassword(incomingPassword: String): Boolean =
         incomingPassword.compareTo(password) == 0

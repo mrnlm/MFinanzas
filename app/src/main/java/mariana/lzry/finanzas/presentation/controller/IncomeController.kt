@@ -7,9 +7,7 @@ import mariana.lzry.finanzas.domain.usecases.GetCategoriesUseCase
 import mariana.lzry.finanzas.domain.usecases.WriteIncomeEntriesUseCase
 import mariana.lzry.finanzas.presentation.model.Category
 import mariana.lzry.finanzas.presentation.model.IncomeEntry
-import java.time.Instant
 import java.time.LocalDateTime
-import java.time.ZoneOffset
 import java.time.format.DateTimeFormatter
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -48,8 +46,6 @@ class IncomeController @Inject constructor(){
         override fun afterTextChanged(p0: Editable?) {}
     }
 
-    //var onSaveIncomeClickListener
-
     fun verifyAmountAndCategoryAreSet(): Boolean{
         val dateNow: LocalDateTime = LocalDateTime.now()
         val date = DateTimeFormatter
@@ -59,6 +55,7 @@ class IncomeController @Inject constructor(){
         if(validationResult){
             val incomeEntry = IncomeEntry(amount, selectedCategory!!.title, date)
             callWriteIncomeEntryUseCase(incomeEntry)
+            amount = 0.0
         }
         return validationResult
     }

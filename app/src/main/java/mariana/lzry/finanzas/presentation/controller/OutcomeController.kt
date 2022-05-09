@@ -8,9 +8,7 @@ import mariana.lzry.finanzas.domain.usecases.GetCategoriesUseCase
 import mariana.lzry.finanzas.domain.usecases.WriteOutcomeEntryUseCase
 import mariana.lzry.finanzas.presentation.model.Category
 import mariana.lzry.finanzas.presentation.model.OutcomeEntry
-import java.time.Instant
 import java.time.LocalDateTime
-import java.time.ZoneOffset
 import java.time.format.DateTimeFormatter
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -56,6 +54,7 @@ class OutcomeController @Inject constructor() {
         if (validationResult) {
             val outcomeEntry = OutcomeEntry(amount, selectedCategory!!.title, date)
             callWriteOutcomeEntryUseCase(outcomeEntry)
+            amount = 0.0
         }
         return validationResult
     }
